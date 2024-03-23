@@ -1,5 +1,9 @@
 namespace FreightCMS.Models;
 
+/// <summary>
+/// Way government entities and bodies can identify a shipment for classification and pricing.
+/// </summary>
+/// <see cref="https://kb.freightcms.com/glossery/freight-class/"/> 
 public enum FreightClass
 {
     Class50,
