@@ -29,4 +29,14 @@ public class Contact
     /// The fax number of the contact.
     /// </summary>
     public string? Fax { get; set; }
+
+    /// <summary>
+    /// role
+    /// </summary>
+    public string? Role { get; set; }
+
+    /// <summary>
+    /// Title of contact
+    /// </summary>
+    public string? Title { get; set; }
 }
