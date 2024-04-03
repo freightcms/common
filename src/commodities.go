@@ -1,4 +1,4 @@
-﻿package models
+﻿package main
 
 // Commodity represents a commodity model
 type CommodityModel struct {

@@ -1,4 +1,4 @@
-package models
+package main
 
 // DimensionsModel represents a model for dimensions
 type DimensionsModel struct {

@@ -1,4 +1,4 @@
-package models
+package main
 
 // Metadata represents metadata information
 type Metadata struct {

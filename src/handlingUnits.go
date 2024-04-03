@@ -1,4 +1,4 @@
-package models
+package main
 
 // HandlingUnitModel represents a handling unit model
 type HandlingUnitModel struct {

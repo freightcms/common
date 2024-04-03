@@ -1,4 +1,4 @@
-package models
+package main
 
 // CurrencyModel represents a currency model
 type CurrencyModel struct {

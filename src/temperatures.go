@@ -1,4 +1,4 @@
-package models
+package main
 
 type TemperatureModel struct {
 	Value float64 // The temperature value
