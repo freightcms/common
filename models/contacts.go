@@ -1,4 +1,4 @@
-package main
+package models
 
 // Contact represents a contact that can be used to reach a company, organization, or individual.
 type Contact struct {

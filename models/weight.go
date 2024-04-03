@@ -1,4 +1,4 @@
-package main
+package models
 
 // WeightModel represents a model for weight
 type WeightModel struct {

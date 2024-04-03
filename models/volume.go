@@ -1,4 +1,4 @@
-package main
+package models
 
 type VolumeModel struct {
 	Value float64 // The volume value

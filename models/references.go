@@ -1,4 +1,4 @@
-package main
+package models
 
 // ReferenceModel represents a reference to a model that can be used to identify a company, organization, or individual.
 type ReferenceModel struct {
