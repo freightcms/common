@@ -1,6 +1,6 @@
 package models
 
-type VolumeModel struct {
+type Volume struct {
 	Value float64 // The volume value
 	Unit  string  // The unit of the volume
 }

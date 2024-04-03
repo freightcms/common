@@ -1,21 +1,21 @@
 package models
 
 // HandlingUnitModel represents a handling unit model
-type HandlingUnitModel struct {
+type HandlingUni struct {
 	Id              string
 	Description     string
-	Weight          *WeightModel
-	Dimensions      *DimensionsModel
-	Volume          *VolumeModel
+	Weight          *Weight
+	Dimensions      *Dimensions
+	Volume          *Volume
 	NFMC            *string
 	HarmonizedCode  *string
 	CountryOfOrigin *string
-	DeclaredValue   *CurrencyModel
+	DeclaredValue   *Currency
 	IsHazardous     bool
 	IsStackable     bool
 	Metadata        Metadata
-	MinTemperature  *TemperatureModel
-	MaxTemperature  *TemperatureModel
-	References      []ReferenceModel
-	Commodities     []CommodityModel
+	MinTemperature  *Temperature
+	MaxTemperature  *Temperature
+	References      []Reference
+	Commodities     []Commodity
 }
