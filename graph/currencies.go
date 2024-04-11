@@ -174,7 +174,7 @@ var CurrencyCodeGraphQLType = graphql.NewEnum(graphql.EnumConfig{
 	},
 })
 
-var CurrencyType = graphql.NewObject(graphql.ObjectConfig{
+var CurrencyGraphQLType = graphql.NewObject(graphql.ObjectConfig{
 	Name: "Currency",
 	Fields: graphql.Fields{
 		"code": &graphql.Field{
